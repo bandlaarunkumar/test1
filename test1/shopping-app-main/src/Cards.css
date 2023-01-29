@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.item {
+    display: flex;
+    height:400px;
+
+}
+.items {
+    background-color:white;
+    height: 600px;
+    border-radius: 15px;
+    position: relative;
+}
+.sizes {
+    background-color: white;
+}
+.cart {
+    background-color: white;
+    display: flex;
+    align-items: flex-end ;
+    height: 20px;
+
+}
+.price {
+    background-color:white;
+    position: absolute;
+    top: 401px;
+    right: 10px;
+    color: red;
+    font-weight: bolder;
+}
+.wish {
+    position: absolute;
+    top:5px;
+    right:10px;
+    border-radius: 50%;
+    height: 40px;
+}
+.discount {
+    position: absolute;
+    background-color: red;
+    color: white;
+    size: 25px;
+    top:5px;
+    left:10px;
+
+}
+.sml {
+    position: absolute;
+    background-color: white;
+    font-weight: 700;
+    size: 50px;
+    bottom: 150px;
+    right:10px;
+}
+.star {
+    position: absolute;
+    background-color: white;
+    font-weight: 300;
+    size: 50px;
+    bottom: 115px;
+    left:10px;
+
+}
+.buy {
+    position: absolute;
+    background-color: red;
+    size: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: large;
+    color:white;
+    size: 50px;
+    bottom: 110px;
+    right:10px;
+}
+.number {
+    position: absolute;
+    background-color: rgb(183, 48, 206);
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: large;
+    color:rgb(0, 0, 0);
+    size: 50px;
+    bottom: 30px;
+    right:10px;
+
+}
+.coupon {
+    position: absolute;
+    background-color: rgb(183, 48, 206);    
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 700;
+    size: 50px;
+    bottom: 30px;
+    right:80px;
+}
